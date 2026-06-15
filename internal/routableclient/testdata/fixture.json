@@ -1,0 +1,67 @@
+{
+  "object": "List",
+  "results": [
+    {
+      "object": "Company",
+      "id": "ec60d364-9100-4728-a3cb-0f200a8a0f5d",
+      "business_name": "Vance Refrigeration",
+      "collect_tax_form": true,
+      "contacts": {
+        "object": "List",
+        "results": [
+          {
+            "object": "Contact",
+            "id": "bba63245-37d2-4c6a-9e82-e9d12a247c06",
+            "default_contact_for_company_management": "actionable",
+            "default_contact_for_payable_and_receivable": "actionable",
+            "email": "bob@vancerefrigeration.com",
+            "first_name": "Bob",
+            "is_archived": false,
+            "last_email_delivery_problem": null,
+            "last_name": "Vance",
+            "phone_number": "+14155552671",
+            "phone_number_country": "US",
+            "links": {
+              "self": "https://api.sandbox.routable.com/v1/companies/ec60d364-9100-4728-a3cb-0f200a8a0f5d/contacts/bba63245-37d2-4c6a-9e82-e9d12a247c06",
+              "company": "https://api.sandbox.routable.com/v1/companies/ec60d364-9100-4728-a3cb-0f200a8a0f5d"
+            }
+          }
+        ],
+        "links": {
+          "self": "https://api.sandbox.routable.com/v1/companies/ec60d364-9100-4728-a3cb-0f200a8a0f5d/contacts",
+          "next": null,
+          "prev": null
+        }
+      },
+      "country_code": "US",
+      "created_at": "2019-08-24T14:15:22+00:00",
+      "display_name": "Vance Refrigeration",
+      "is_customer": false,
+      "is_vendor": true,
+      "ledger": {
+        "customer_id": null,
+        "vendor_id": null
+      },
+      "risk_summary": "not_evaluated",
+      "status": "accepted",
+      "tax_form_status": "completed",
+      "tax_form_type": "w9",
+      "type": "business",
+      "external_id": "2758",
+      "links": {
+        "self": "https://api.sandbox.routable.com/v1/companies/ec60d364-9100-4728-a3cb-0f200a8a0f5d",
+        "compliance_checks": "https://api.sandbox.routable.com/v1/companies/ec60d364-9100-4728-a3cb-0f200a8a0f5d/compliance-checks",
+        "contacts": "https://api.sandbox.routable.com/v1/companies/ec60d364-9100-4728-a3cb-0f200a8a0f5d/contacts",
+        "payment_methods": "https://api.sandbox.routable.com/v1/companies/ec60d364-9100-4728-a3cb-0f200a8a0f5d/payment-methods",
+        "payables": "https://api.sandbox.routable.com/v1/payables?company=ec60d364-9100-4728-a3cb-0f200a8a0f5d",
+        "receivables": "https://api.sandbox.routable.com/v1/receivables?company=ec60d364-9100-4728-a3cb-0f200a8a0f5d",
+        "tax_forms": "https://api.sandbox.routable.com/v1/companies/ec60d364-9100-4728-a3cb-0f200a8a0f5d/tax-forms"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.sandbox.routable.com/v1/companies",
+    "next": null,
+    "prev": null
+  }
+}
